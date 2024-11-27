@@ -24,13 +24,12 @@ namespace FCGR_EmguCV
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    /// 230614153707119
-    /// 230614154114819
+
     public partial class MainWindow : Window
     {
         Videoprocessor Video = new Videoprocessor();
 
-        string dir_file = @"C:\Users\DEN\Desktop\FCGR-EmguCV\Video\230614154114819.mp4";
+        string dir_file = @"";
 
         int ind_base = 0, flag = 0;
 
@@ -38,7 +37,7 @@ namespace FCGR_EmguCV
 
         XLWorkbook xlwb = new XLWorkbook();
 
-        XLWorkbook xlwb_test = new XLWorkbook(@"C:\Users\DEN\Desktop\FCGR-EmguCV\Results\test2.xlsx");
+        XLWorkbook xlwb_test = new XLWorkbook(@"");
 
         List<double> frontSide, backSide, frontCycles, backCycles;
 
